@@ -22,3 +22,5 @@ elif len(sys.argv) ==2:
     elif sys.argv[1].lower() == 'delete':
         mcbShelf.clear()
 
+mcbShelf.close()
+
